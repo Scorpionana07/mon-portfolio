@@ -110,3 +110,54 @@ body {
 .titre-apropos {
     color: #009688;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+}
+
+header, nav, section, footer {
+    width: 100%;
+    display: block;
+}
+
+nav ul {
+    flex-decoration: colum;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin-bottom: 10px;
+}
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+}
+
+.container, .portfolio-item, .form-section {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu {
+    flex-decoration: colum;
+    align-items: flex-start;
+}
+
+ h1, h2, h3 {
+        font-size: 1.5em;
+}
+
+button, input, textarea {
+    width: 100%;
+    }
+}
+    
+        
+    
+    
+        
